@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+}
+
+#color-flipper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100vh;
+}
+
+#secondary-div {
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+h1, h2 {
+    margin: 15px;
+}
+
+button {
+    margin: 10px;
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: lightgrey;
+}
+
+button:active {
+    padding: 9px;
+}
